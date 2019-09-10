@@ -1,0 +1,83 @@
+C:\Users\Asus\Desktop\federacija-II deo\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Sahovska_Federacija.exe.config
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Sahovska_Federacija.exe.config
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.Form1.resources
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.Properties.Resources.resources
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.csproj.GenerateResource.Cache
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Sahovska_Federacija.exe
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Sahovska_Federacija.pdb
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\FluentNHibernate.dll
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Iesi.Collections.dll
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\NHibernate.dll
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Remotion.Linq.dll
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Remotion.Linq.EagerFetching.dll
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Antlr3.Runtime.xml
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\FluentNHibernate.xml
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Iesi.Collections.xml
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\NHibernate.xml
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Remotion.Linq.xml
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Remotion.Linq.EagerFetching.xml
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.exe
+C:\Users\Asus\Desktop\fax\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.pdb
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Sahovska_Federacija.exe.config
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Sahovska_Federacija.exe
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Sahovska_Federacija.pdb
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\FluentNHibernate.dll
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Iesi.Collections.dll
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\NHibernate.dll
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Remotion.Linq.dll
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Remotion.Linq.EagerFetching.dll
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Antlr3.Runtime.xml
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\FluentNHibernate.xml
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Iesi.Collections.xml
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\NHibernate.xml
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Remotion.Linq.xml
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Remotion.Linq.EagerFetching.xml
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.csprojAssemblyReference.cache
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.Form1.resources
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.Properties.Resources.resources
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.csproj.GenerateResource.cache
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.csproj.CoreCompileInputs.cache
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.csproj.CopyComplete
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.exe
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.pdb
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.TurnirEditBasic.resources
+C:\Users\Smuchy\Desktop\Sahovska_federacija\II deo federacija\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.TurnirInformacije.resources
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Sahovska_Federacija.exe.config
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Sahovska_Federacija.exe
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Sahovska_Federacija.pdb
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Antlr3.Runtime.dll
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\FluentNHibernate.dll
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Iesi.Collections.dll
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\NHibernate.dll
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Remotion.Linq.dll
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Remotion.Linq.EagerFetching.dll
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Antlr3.Runtime.xml
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\FluentNHibernate.xml
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Iesi.Collections.xml
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\NHibernate.xml
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Remotion.Linq.xml
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Remotion.Linq.EagerFetching.xml
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.Form1.resources
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.Properties.Resources.resources
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.TurnirEditBasic.resources
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.TurnirInformacije.resources
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.csproj.CopyComplete
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.exe
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\obj\Debug\Sahovska_Federacija.pdb
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\System.Web.Http.dll
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\System.Web.Http.Tracing.dll
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\System.Web.Http.xml
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\System.Web.Http.Tracing.xml
+C:\Users\HP\Desktop\SF-API\Sahovska_federacija\Sahovska_Federacija\bin\Debug\System.Runtime.Serialization.Primitives.dll

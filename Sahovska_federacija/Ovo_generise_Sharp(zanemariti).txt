@@ -1,0 +1,363 @@
+**DDL FOR SEQUENCES**
+
+--------------------------------------------------------
+--  DDL for Sequence SAHISTA_PASOS_SEQ
+--------------------------------------------------------
+CREATE SEQUENCE  "SAHISTA_PASOS_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 81 CACHE 20 NOORDER  NOCYCLE;
+
+--------------------------------------------------------
+--  DDL for Sequence JE_CLAN_ID_SEQ
+--------------------------------------------------------
+CREATE SEQUENCE  "JE_CLAN_ID_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE;
+
+--------------------------------------------------------
+--  DDL for Sequence SAHOVSKI_TURNIR_ID_SEQ
+--------------------------------------------------------
+CREATE SEQUENCE  "SAHOVSKI_TURNIR_ID_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE;
+
+--------------------------------------------------------
+--  DDL for Sequence ORGANIZATOR_MAT_BR_SEQ
+--------------------------------------------------------
+CREATE SEQUENCE  "ORGANIZATOR_MAT_BR_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 101 CACHE 20 NOORDER  NOCYCLE;
+
+--------------------------------------------------------
+--  DDL for Sequence PARTIJA_ID_SEQ
+--------------------------------------------------------
+CREATE SEQUENCE  "PARTIJA_ID_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE;
+
+--------------------------------------------------------
+--  DDL for Sequence POTEZ_RED_BR_SEQ
+--------------------------------------------------------
+CREATE SEQUENCE  "POTEZ_RED_BR_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE;
+
+
+
+
+**DDL FOR CREATE TABLE**
+
+--------------------------------------------------------
+--  DDL for Table FEDERACIJA
+--------------------------------------------------------
+CREATE TABLE Federacija (
+	registracioni_broj INT NOT NULL,
+	lokacija VARCHAR(30) NOT NULL,
+	PRIMARY KEY(registracioni_broj)
+);
+
+--------------------------------------------------------
+--  DDL for Table SAHISTA
+--------------------------------------------------------
+CREATE TABLE Sahista (
+	registracioni_broj_sahiste INT,
+	br_pasosa INT NOT NULL,
+	ime VARCHAR(30) NOT NULL,
+	prezime VARCHAR(30) NOT NULL,
+	ulica VARCHAR(30) NOT NULL,
+	broj INT NOT NULL,
+	datum_rodjenja VARCHAR(10) NOT NULL,
+	zemlja_porekla VARCHAR(50) NOT NULL,
+	reg_broj_federacije INT NOT NULL
+);
+
+--------------------------------------------------------
+--  DDL for Table SAHOVSKI_TURNIR
+--------------------------------------------------------
+CREATE TABLE Sahovski_turnir (
+	id_turnira INT NOT NULL,
+	god_odrzavanja INT NOT NULL,
+	zemlja VARCHAR(15) NOT NULL,
+	grad VARCHAR(15) NOT NULL,
+	naziv VARCHAR(15) NOT NULL,
+	federacija_reg_br INT NOT NULL,
+	PRIMARY KEY(id_turnira)
+);
+
+--------------------------------------------------------
+--  DDL for Table OBICAN_CLAN
+--------------------------------------------------------
+CREATE TABLE Obican_clan (
+	registracioni_broj_sahiste INT NOT NULL,
+	PRIMARY KEY(registracioni_broj_sahiste)
+);
+
+--------------------------------------------------------
+--  DDL for Table MAJSTORSKI_KANDIDAT
+--------------------------------------------------------
+CREATE TABLE Majstorski_kandidat (
+	br_odigranih_partija INT NOT NULL,
+	br_partija_do_zvanja INT NOT NULL,
+	registracioni_broj_sahiste INT NOT NULL,
+	PRIMARY KEY(registracioni_broj_sahiste)
+);
+
+--------------------------------------------------------
+--  DDL for Table MAJSTOR
+--------------------------------------------------------
+CREATE TABLE Majstor (
+	datum_sticanja_zvanja VARCHAR(15) NOT NULL,
+	registracioni_broj_sahiste INT NOT NULL,
+	PRIMARY KEY(registracioni_broj_sahiste)	
+);
+
+--------------------------------------------------------
+--  DDL for Table TAKMICARSKI
+--------------------------------------------------------
+CREATE TABLE Takmicarski (
+	id_turnira INT NOT NULL,
+	nacionalni CHAR(1),
+	regionalni CHAR(1),
+	internacionalni CHAR(1),
+	PRIMARY KEY(id_turnira)
+);
+
+--------------------------------------------------------
+--  DDL for Table NORMALNI
+--------------------------------------------------------
+CREATE TABLE Normalni (
+	id_turnira INT NOT NULL,
+	PRIMARY KEY(id_turnira)
+);
+
+--------------------------------------------------------
+--  DDL for Table BRZOPOTEZNI
+--------------------------------------------------------
+CREATE TABLE Brzopotezni (
+	id_turnira INT NOT NULL,
+	max_vreme_trajanja_partija INT NOT NULL,
+	PRIMARY KEY(id_turnira)
+);
+
+--------------------------------------------------------
+--  DDL for Table EGZIBICIONI
+--------------------------------------------------------
+CREATE TABLE Egzibicioni (
+	id_turnira INT NOT NULL,
+	PRIMARY KEY(id_turnira)
+);
+
+--------------------------------------------------------
+--  DDL for Table HUMANITARNI
+--------------------------------------------------------
+CREATE TABLE Humanitarni (
+	id_turnira INT NOT NULL,
+	kome_je_namenjen VARCHAR(50) NOT NULL,
+	prikupljeni_iznos INT NOT NULL,
+	PRIMARY KEY(id_turnira)
+);
+
+--------------------------------------------------------
+--  DDL for Table PROMOTIVNI
+--------------------------------------------------------
+CREATE TABLE Promotivni (
+	id_turnira INT NOT NULL,
+	PRIMARY KEY(id_turnira)
+);
+
+--------------------------------------------------------
+--  DDL for Table ORGANIZATOR
+--------------------------------------------------------
+CREATE TABLE Organizator (
+	maticni_broj INT NOT NULL,
+	ime VARCHAR(15) NOT NULL,
+	prezime VARCHAR(15) NOT NULL,
+	adresa VARCHAR(50) NOT NULL,
+	id_turnira INT NOT NULL,
+	PRIMARY KEY(maticni_broj)
+);
+
+--------------------------------------------------------
+--  DDL for Table SPONZOR
+--------------------------------------------------------
+CREATE TABLE Sponzor (
+	reg_broj INT NOT NULL,
+	ime VARCHAR(30) NOT NULL,
+	opis VARCHAR(250),
+	logo VARCHAR(30),
+	turnir_id INT NOT NULL,
+	PRIMARY KEY(reg_broj)
+);
+
+--------------------------------------------------------
+--  DDL for Table PARTIJA
+--------------------------------------------------------
+CREATE TABLE Partija (
+	id_partije INT NOT NULL,
+	bele_figure VARCHAR(50) NOT NULL,
+	crne_figure VARCHAR(50) NOT NULL,
+	kad_se_igra VARCHAR(20) NOT NULL,
+	trajanje INT NOT NULL,
+	turnir_id INT NOT NULL,
+	pat CHAR(1),
+	mat CHAR(1),
+	rem CHAR(1),
+	PRIMARY KEY(id_partije)
+);
+
+--------------------------------------------------------
+--  DDL for Table POTEZ
+--------------------------------------------------------
+CREATE TABLE Potez (
+	redni_br INT NOT NULL,
+	opis VARCHAR(50) NOT NULL,
+	kad_odigran VARCHAR(20) NOT NULL,
+	partija_id INT NOT NULL,
+	PRIMARY KEY(redni_br)
+);
+
+--------------------------------------------------------
+--  DDL for Table JE_CLAN
+--------------------------------------------------------
+CREATE TABLE je_clan(
+	reg_br_federacije INT NOT NULL,
+	reg_br_sahiste INT NOT NULL,
+	datum_uclanjenja VARCHAR(20) NOT NULL,
+	PRIMARY KEY(reb_br_federacije,reg_br_sahiste)
+);
+
+--------------------------------------------------------
+--  DDL for Table JE_SPONZOR
+--------------------------------------------------------
+CREATE TABLE je_sponzor(
+	id_turnira INT NOT NULL,
+	reg_br_sponzora INT NOT NULL,
+	PRIMARY KEY(id_turnira,reg_br_sponzora)
+);
+
+
+
+**DDL for INDEX**
+
+--------------------------------------------------------
+--  DDL for Index SAHISTA_PK
+--------------------------------------------------------
+CREATE UNIQUE INDEX "SAHISTA_PK" ON "SAHISTA" ("registracioni_broj_sahiste");
+
+--------------------------------------------------------
+--  DDL for Index SAHOVSKI_TURNIR_PK
+--------------------------------------------------------
+CREATE UNIQUE INDEX "SAHOVSKI_TURNIR_PK" ON "SAHOVSKI_TURNIR" ("id_turnira");
+
+--------------------------------------------------------
+--  DDL for Index ORGANIZATOR_PK
+--------------------------------------------------------
+CREATE UNIQUE INDEX "ORGANIZATOR_PK" ON "ORGANIZATOR" ("maticni_broj");
+
+--------------------------------------------------------
+--  DDL for Index PARTIJA_PK
+--------------------------------------------------------
+CREATE UNIQUE INDEX "PARTIJA_PK" ON "PARTIJA" ("id_partije");
+
+--------------------------------------------------------
+--  DDL for Index POTEZ_PK
+--------------------------------------------------------
+CREATE UNIQUE INDEX "POTEZ_PK" ON "POTEZ" ("redni_broj");
+
+
+
+
+
+**DDL for CONSTRAINT**
+
+--------------------------------------------------------
+--  Constraints for Table SAHISTA
+--------------------------------------------------------
+ALTER TABLE "SAHISTA" ADD CONSTRAINT "SAHISTA_PK" PRIMARY KEY ("registracioni_broj_sahiste") ENABLE;
+ALTER TABLE "SAHISTA" MODIFY ("registracioni_broj_sahiste" NOT NULL ENABLE);
+ALTER TABLE "SAHISTA" ADD CONSTRAINT "SAHISTA_FK" FOREIGN KEY ("reg_broj_federacije") REFERENCES "FEDERACIJA" ("registracioni_broj_federacije") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table SAHOVSKI_TURNIR
+--------------------------------------------------------
+ALTER TABLE "SAHOVSKI_TURNIR" ADD CONSTRAINT "SAHOVSKI_TURNIR_FK" FOREIGN KEY ("federacija_reg_br") REFERENCES "FEDERACIJA" ("registracioni_broj_federacije") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table SAHOVSKI_TURNIR
+--------------------------------------------------------
+ALTER TABLE "SAHOVSKI_TURNIR" ADD CONSTRAINT "SAHOVSKI_TURNIR_FK" FOREIGN KEY ("federacija_reg_br") REFERENCES "FEDERACIJA" ("registracioni_broj_federacije") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table OBICAN_CLAN
+--------------------------------------------------------
+ALTER TABLE "OBICAN_CLAN" ADD CONSTRAINT "OBICAN_CLAN_FK" FOREIGN KEY ("registracioni_broj_sahiste") REFERENCES "SAHISTA" ("registracioni_broj_sahiste") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table MAJSTORSKI_KANDIDAT
+--------------------------------------------------------
+ALTER TABLE "MAJSTORSKI_KANDIDAT" ADD CONSTRAINT "MAJSTORSKI_KANDIDAT_FK" FOREIGN KEY ("registracioni_broj_sahiste") REFERENCES "SAHISTA" ("registracioni_broj_sahiste") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table MAJSTOR
+--------------------------------------------------------
+ALTER TABLE "MAJSTOR" ADD CONSTRAINT "MAJSTOR_FK" FOREIGN KEY ("registracioni_broj_sahiste") REFERENCES "SAHISTA" ("registracioni_broj_sahiste") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table TAKMICARSKI
+--------------------------------------------------------
+ALTER TABLE "TAKMICARSKI" ADD CONSTRAINT "TAKMICARSKI_FK" FOREIGN KEY ("id_turnira") REFERENCES "SAHOVSKI_TURNIR" ("id_turnira") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table NORMALNI
+--------------------------------------------------------
+ALTER TABLE "NORMALNI" ADD CONSTRAINT "NORMALNI_FK" FOREIGN KEY ("id_turnira") REFERENCES "SAHOVSKI_TURNIR" ("id_turnira") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table BRZOPOTEZNI
+--------------------------------------------------------
+ALTER TABLE "BRZOPOTEZNI" ADD CONSTRAINT "BRZOPOTEZNI_FK" FOREIGN KEY ("id_turnira") REFERENCES "SAHOVSKI_TURNIR" ("id_turnira") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table EGZIBICIONI
+--------------------------------------------------------
+ALTER TABLE "EGZIBICIONI" ADD CONSTRAINT "EGZIBICIONI_FK" FOREIGN KEY ("id_turnira") REFERENCES "SAHOVSKI_TURNIR" ("id_turnira") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table HUMANITARNI
+--------------------------------------------------------
+ALTER TABLE "HUMANITARNI" ADD CONSTRAINT "HUMANITARNI_FK" FOREIGN KEY ("id_turnira") REFERENCES "SAHOVSKI_TURNIR" ("id_turnira") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table PROMOTIVNI
+--------------------------------------------------------
+ALTER TABLE "PROMOTIVNI" ADD CONSTRAINT "PROMOTIVNI_FK" FOREIGN KEY ("id_turnira") REFERENCES "SAHOVSKI_TURNIR" ("id_turnira") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table ORGANIZATOR
+--------------------------------------------------------
+ALTER TABLE "ORGANIZATOR" ADD CONSTRAINT "ORGANIZATOR_FK" FOREIGN KEY ("id_turnira") REFERENCES "SAHOVSKI_TURNIR" ("id_turnira") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table SPONZOR
+--------------------------------------------------------
+ALTER TABLE "SPONZOR" ADD CONSTRAINT "SPONZOR_FK" FOREIGN KEY ("turnir_id") REFERENCES "SAHOVSKI_TURNIR" ("id_turnira") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table PARTIJA
+--------------------------------------------------------
+ALTER TABLE "PARTIJA" ADD CONSTRAINT "PARTIJA_FK" FOREIGN KEY ("turnir_id") REFERENCES "SAHOVSKI_TURNIR" ("id_turnira") ENABLE;
+ALTER TABLE "PARTIJA" ADD CONSTRAINT "PARTIJA_REM_CHK" CHECK (REM IN ('Y', 'N')) ENABLE;
+ALTER TABLE "PARTIJA" ADD CONSTRAINT "PARTIJA_PAT_CHK" CHECK (PAT IN ('Y', 'N')) ENABLE;
+ALTER TABLE "PARTIJA" ADD CONSTRAINT "PARTIJA_MAT_CHK" CHECK (MAT IN ('Y', 'N')) ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table POTEZ
+--------------------------------------------------------
+ALTER TABLE "POTEZ" ADD CONSTRAINT "POTEZ_FK" FOREIGN KEY ("partija_id") REFERENCES "PARTIJA" ("id_partije") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table JE_CLAN
+--------------------------------------------------------
+ALTER TABLE "JE_CLAN" ADD CONSTRAINT "JE_CLAN_FK" FOREIGN KEY ("reb_br_federacije") REFERENCES "FEDERACIJA" ("registracioni_broj_federacije") ENABLE;
+ALTER TABLE "JE_CLAN" ADD CONSTRAINT "JE_CLAN_SAH_FK" FOREIGN KEY ("reg_br_sahiste") REFERENCES "SAHISTA" ("registracioni_broj_sahiste") ENABLE;
+
+--------------------------------------------------------
+--  Constraints for Table JE_SPONZOR
+--------------------------------------------------------
+ALTER TABLE "JE_SPONZOR" ADD CONSTRAINT "JE_SPONZOR_FK" FOREIGN KEY ("id_turnira") REFERENCES "SAHOVSKI_TURNIR" ("id_turnira") ENABLE;
+ALTER TABLE "JE_SPONZOR" ADD CONSTRAINT "JE_SPONZOR_FK" FOREIGN KEY ("reg_br_sponzora") REFERENCES "SPONZOR" ("reg_broj") ENABLE;
+
+
+
+
+
+
+
